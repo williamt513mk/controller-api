@@ -1,0 +1,91 @@
+Retrieving logs for app [36;1mCSC_realtime_web_service_api[0m in org [36;1mCSC[0m / space [36;1mSRP[0m as [36;1mSeven@icsc.com.tw[0m...
+
+   2018-05-11T14:14:21.70+0800 [API/0] OUT Created app with guid e5482541-5123-464d-aa43-818422d87784
+   2018-05-11T14:14:28.51+0800 [API/0] OUT Updated app with guid e5482541-5123-464d-aa43-818422d87784 ({"state"=>"STARTED"})
+   2018-05-11T14:14:28.52+0800 [STG/0] OUT Downloading python_buildpack_offline...
+   2018-05-11T14:14:28.52+0800 [STG/0] OUT Downloaded python_buildpack_offline
+   2018-05-11T14:14:28.52+0800 [STG/0] OUT Creating container
+   2018-05-11T14:14:29.17+0800 [STG/0] OUT Successfully created container
+   2018-05-11T14:14:29.17+0800 [STG/0] OUT Downloading app package...
+   2018-05-11T14:14:29.57+0800 [STG/0] OUT Downloaded app package (19.5M)
+   2018-05-11T14:14:29.57+0800 [STG/0] OUT Staging...
+   2018-05-11T14:14:30.10+0800 [STG/0] OUT -------> Buildpack version 1.5.20
+   2018-05-11T14:14:30.10+0800 [STG/0] OUT  !     Warning: Your application is missing a Procfile. This file tells Cloud Foundry how to run your application.
+   2018-05-11T14:14:30.10+0800 [STG/0] OUT  !     Learn more: https://docs.cloudfoundry.org/buildpacks/prod-server.html#procfile
+   2018-05-11T14:14:30.10+0800 [STG/0] OUT -----> Installing python-2.7.13
+   2018-05-11T14:14:31.61+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_python_python-2.7.13-linux-x64-5cf1a1af.tgz]
+   2018-05-11T14:14:31.80+0800 [STG/0] OUT -----> Installing Setuptools (32.1.0)
+   2018-05-11T14:14:32.35+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_setuptools_setuptools-32.1.0-44054eaa.tar.gz]
+   2018-05-11T14:14:33.76+0800 [STG/0] OUT -----> Installing Pip (9.0.1)
+   2018-05-11T14:14:33.91+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pip_pip-9.0.1-35f01da3.tar.gz]
+   2018-05-11T14:14:36.66+0800 [STG/0] OUT -----> Installing pip-pop (0.1.1)
+   2018-05-11T14:14:36.77+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pip-pop_pip-pop-0.1.1-d410583a.tar.gz]
+   2018-05-11T14:14:39.24+0800 [STG/0] OUT -----> Installing pipenv (4.0.1)
+   2018-05-11T14:14:39.38+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pipenv_pipenv-4.0.1-148f753f.tar.gz]
+   2018-05-11T14:14:48.21+0800 [STG/0] OUT      $ pip install -r requirements.txt
+   2018-05-11T14:14:48.96+0800 [STG/0] OUT        Collecting flask (from -r requirements.txt (line 1))
+   2018-05-11T14:14:49.52+0800 [STG/0] OUT        Collecting pandas==0.22.0 (from -r requirements.txt (line 2))
+   2018-05-11T14:16:38.38+0800 [API/0] OUT Updated app with guid e5482541-5123-464d-aa43-818422d87784 ({"buildpack"=>"python_buildpack_offline", "command"=>"PRIVATE DATA HIDDEN", "disk_quota"=>1024, "health_check_http_endpoint"=>"", "health_check_type"=>"port", "instances"=>1, "memory"=>1024, "name"=>"CSC_realtime_web_service_api", "state"=>"STARTED"})
+   2018-05-11T14:16:38.39+0800 [STG/0] OUT Downloading python_buildpack_offline...
+   2018-05-11T14:16:38.40+0800 [STG/0] OUT Downloaded python_buildpack_offline
+   2018-05-11T14:16:38.40+0800 [STG/0] OUT Creating container
+   2018-05-11T14:16:39.08+0800 [STG/0] OUT Successfully created container
+   2018-05-11T14:16:39.08+0800 [STG/0] OUT Downloading app package...
+   2018-05-11T14:16:39.44+0800 [STG/0] OUT Downloaded app package (19.5M)
+   2018-05-11T14:16:39.44+0800 [STG/0] OUT Staging...
+   2018-05-11T14:16:39.66+0800 [STG/0] OUT -------> Buildpack version 1.5.20
+   2018-05-11T14:16:39.77+0800 [STG/0] OUT  !     Warning: Your application is missing a Procfile. This file tells Cloud Foundry how to run your application.
+   2018-05-11T14:16:39.77+0800 [STG/0] OUT  !     Learn more: https://docs.cloudfoundry.org/buildpacks/prod-server.html#procfile
+   2018-05-11T14:16:39.91+0800 [STG/0] OUT -----> Installing python-2.7.13
+   2018-05-11T14:16:41.17+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_python_python-2.7.13-linux-x64-5cf1a1af.tgz]
+   2018-05-11T14:16:41.34+0800 [STG/0] OUT -----> Installing Setuptools (32.1.0)
+   2018-05-11T14:16:41.46+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_setuptools_setuptools-32.1.0-44054eaa.tar.gz]
+   2018-05-11T14:16:42.88+0800 [STG/0] OUT -----> Installing Pip (9.0.1)
+   2018-05-11T14:16:43.02+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pip_pip-9.0.1-35f01da3.tar.gz]
+   2018-05-11T14:16:44.85+0800 [API/0] OUT Updated app with guid e5482541-5123-464d-aa43-818422d87784 ({"state"=>"STOPPED"})
+   2018-05-11T14:16:45.08+0800 [API/0] OUT Updated app with guid e5482541-5123-464d-aa43-818422d87784 ({"state"=>"STARTED"})
+   2018-05-11T14:16:45.09+0800 [STG/0] OUT Downloading python_buildpack_offline...
+   2018-05-11T14:16:45.14+0800 [STG/0] OUT Downloaded python_buildpack_offline
+   2018-05-11T14:16:45.14+0800 [STG/0] OUT Creating container
+   2018-05-11T14:16:45.59+0800 [STG/0] OUT Successfully created container
+   2018-05-11T14:16:45.59+0800 [STG/0] OUT Downloading app package...
+   2018-05-11T14:16:45.92+0800 [STG/0] OUT -----> Installing pip-pop (0.1.1)
+   2018-05-11T14:16:45.99+0800 [STG/0] OUT Downloaded app package (19.5M)
+   2018-05-11T14:16:45.99+0800 [STG/0] OUT Staging...
+   2018-05-11T14:16:46.04+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pip-pop_pip-pop-0.1.1-d410583a.tar.gz]
+   2018-05-11T14:16:46.42+0800 [STG/0] OUT -------> Buildpack version 1.5.20
+   2018-05-11T14:16:48.48+0800 [STG/0] OUT -----> Installing pipenv (4.0.1)
+   2018-05-11T14:16:48.63+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pipenv_pipenv-4.0.1-148f753f.tar.gz]
+   2018-05-11T14:16:49.40+0800 [STG/0] OUT  !     Warning: Your application is missing a Procfile. This file tells Cloud Foundry how to run your application.
+   2018-05-11T14:16:49.40+0800 [STG/0] OUT  !     Learn more: https://docs.cloudfoundry.org/buildpacks/prod-server.html#procfile
+   2018-05-11T14:16:49.74+0800 [STG/0] OUT -----> Installing python-2.7.13
+   2018-05-11T14:16:53.07+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_python_python-2.7.13-linux-x64-5cf1a1af.tgz]
+   2018-05-11T14:16:53.31+0800 [STG/0] OUT -----> Installing Setuptools (32.1.0)
+   2018-05-11T14:16:53.48+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_setuptools_setuptools-32.1.0-44054eaa.tar.gz]
+   2018-05-11T14:16:54.90+0800 [STG/0] OUT -----> Installing Pip (9.0.1)
+   2018-05-11T14:16:55.03+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pip_pip-9.0.1-35f01da3.tar.gz]
+   [31m2018-05-11T14:16:55.81+0800 [STG/0] ERR Staging failed[0m
+   2018-05-11T14:16:55.81+0800 [STG/0] OUT Destroying container
+   [31m2018-05-11T14:16:55.82+0800 [STG/0] ERR Staging failed[0m
+   2018-05-11T14:16:55.82+0800 [STG/0] OUT Destroying container
+   2018-05-11T14:16:56.48+0800 [STG/0] OUT Successfully destroyed container
+   2018-05-11T14:16:56.48+0800 [STG/0] OUT Destroying container
+   2018-05-11T14:16:56.48+0800 [STG/0] OUT Successfully destroyed container
+   2018-05-11T14:16:58.09+0800 [STG/0] OUT -----> Installing pip-pop (0.1.1)
+   2018-05-11T14:16:58.21+0800 [STG/0] OUT Successfully destroyed container
+   2018-05-11T14:16:58.21+0800 [STG/0] OUT Destroying container
+   2018-05-11T14:16:58.21+0800 [STG/0] OUT Successfully destroyed container
+   2018-05-11T14:16:58.23+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pip-pop_pip-pop-0.1.1-d410583a.tar.gz]
+   2018-05-11T14:17:02.37+0800 [STG/0] OUT -----> Installing pipenv (4.0.1)
+   2018-05-11T14:17:02.67+0800 [STG/0] OUT Downloaded [file:///tmp/buildpacks/90e184cb1aef440b56ca580b9e08cd7a/dependencies/https___buildpacks.cloudfoundry.org_dependencies_manual-binaries_pipenv_pipenv-4.0.1-148f753f.tar.gz]
+   2018-05-11T14:17:12.17+0800 [STG/0] OUT      $ pip install -r requirements.txt
+   2018-05-11T14:17:12.96+0800 [STG/0] OUT        Collecting flask (from -r requirements.txt (line 1))
+   2018-05-11T14:17:13.55+0800 [STG/0] OUT        Collecting boto==2.48.0 (from -r requirements.txt (line 2))
+   2018-05-11T14:17:14.69+0800 [STG/0] OUT        Collecting psycopg2 (from -r requirements.txt (line 3))
+   [31m2018-05-11T14:17:14.69+0800 [STG/0] ERR   Could not find a version that satisfies the requirement psycopg2 (from -r requirements.txt (line 3)) (from versions: )[0m
+   [31m2018-05-11T14:17:14.78+0800 [STG/0] ERR No matching distribution found for psycopg2 (from -r requirements.txt (line 3))[0m
+   [31m2018-05-11T14:17:14.83+0800 [STG/0] ERR Failed to compile droplet[0m
+   2018-05-11T14:17:14.83+0800 [STG/0] OUT Exit status 223
+   [31m2018-05-11T14:17:14.85+0800 [STG/0] ERR Staging failed: Exited with status 223[0m
+   2018-05-11T14:17:14.85+0800 [STG/0] OUT Destroying container
+   2018-05-11T14:17:16.63+0800 [STG/0] OUT Successfully destroyed container
