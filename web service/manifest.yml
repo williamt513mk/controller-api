@@ -1,7 +1,6 @@
 ---
 applications:
-- name: CSC_realtime_web_service_api
+- name: owen_CSC_realtime_web_service_api
   memory: 1024MB
   buildpack: python_buildpack_offline
-  command: python simple_flask_web_service_rts.py
   
